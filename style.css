@@ -1,0 +1,113 @@
+body{
+  /* 先套用 Noto Sans TC 這個 思源黑體 */
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+.site-header {
+    background-color: #FAF9D5;
+}
+
+.site-header a {
+    color: white;
+}
+
+.card-anti-overflow {
+    overflow: hidden;
+    max-height: 225px;
+}
+
+.card-label {
+    background-color: #007bff;
+    position: absolute;
+    bottom: -1.25rem;
+    /*card-overlayer*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    text-align: center;
+    display: inline-table;
+}
+
+.card-label p {
+    margin: 4px 8px;
+}
+
+/*相簿輪播段*/
+
+/*a*/
+.super-album a, .super-album a:focus, .super-album a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.super-album a:hover, .super-album .btn {
+    outline: none!important;
+}
+
+/*ROUNDED CORNER*/
+.super-album * {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.carousel-inner {
+    height: 324px;
+}
+
+/*CATEGORIES BADGE*/
+
+.super-album .badge {
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: #289dcc;
+}
+
+/*FEATURED*/
+
+.super-album .mg-2, .super-album .mg-4 {
+    margin-left: -20px;
+}
+
+.super-album .linkfeat {
+    background: rgba(76, 76, 76, 0);
+    background: -moz-linear-gradient(top, rgba(76, 76, 76, 0) 0%, rgba(48, 48, 48, 0) 49%, rgba(19, 19, 19, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(76, 76, 76, 0)), color-stop(49%, rgba(48, 48, 48, 0)), color-stop(100%, rgba(19, 19, 19, 1)));
+    background: -webkit-linear-gradient(top, rgba(76, 76, 76, 0) 0%, rgba(48, 48, 48, 0) 49%, rgba(19, 19, 19, 1) 100%);
+    background: -o-linear-gradient(top, rgba(76, 76, 76, 0) 0%, rgba(48, 48, 48, 0) 49%, rgba(19, 19, 19, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(76, 76, 76, 0) 0%, rgba(48, 48, 48, 0) 49%, rgba(19, 19, 19, 1) 100%);
+    background: linear-gradient(to bottom, rgba(76, 76, 76, 0) 0%, rgba(48, 48, 48, 0) 49%, rgba(19, 19, 19, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=0);
+}
+
+/*輪撥段結束*/
+
+
+.jumbotronimg{
+    background: url("images/wall.png") no-repeat; 
+    background-size: 100% 100%;
+}
+
+.overlay {
+    position: relative; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+.img-responsive{
+	width:200px;
+}
+.text-muted{
+	background-color: #FAF9D5;
+}
